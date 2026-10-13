@@ -1,0 +1,33 @@
+# Qmatter 共享环境依赖清单（排除 torch/torchvision，CV 与 NLP 经典模型目录不纳入）
+# —— Agent 相关 ——
+click>=8.1.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+aioconsole>=0.7.0
+openai>=1.30.0
+lark-oapi>=1.4.0
+httpx>=0.27.0
+websockets>=12.0
+langchain-core>=0.2.0
+langgraph>=0.2.0
+mcp>=1.0.0
+numpy>=1.26.0
+
+# —— RAG / 文档处理 ——
+pandas>=2.0.0
+tiktoken>=0.6.0
+nltk>=3.8.0
+rank-bm25>=0.2.2
+sentence-transformers>=2.6.0
+faiss-cpu>=1.8.0
+pdfplumber>=0.11.0
+pypdf>=4.0.0
+PyMuPDF>=1.24.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+reportlab>=4.0.0
+lxml>=5.0.0
+mistune>=3.0.0
+matplotlib>=3.8.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
